@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="681.0" prefWidth="794.0" style="-fx-background-color: #f6f7dc;" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.progam.Controller">
+   <children>
+      <TextField fx:id="a" layoutX="222.0" layoutY="51.0" />
+      <TextField fx:id="b" layoutX="449.0" layoutY="51.0" />
+      <TextField fx:id="c11" layoutX="109.0" layoutY="165.0" />
+      <TextField fx:id="c12" layoutX="336.0" layoutY="165.0" />
+      <TextField fx:id="b1" layoutX="580.0" layoutY="165.0" />
+      <TextField fx:id="c21" layoutX="109.0" layoutY="231.0" />
+      <TextField fx:id="c22" layoutX="336.0" layoutY="231.0" />
+      <TextField fx:id="b2" layoutX="580.0" layoutY="225.0" />
+      <TextField fx:id="c31" layoutX="109.0" layoutY="291.0" />
+      <TextField fx:id="c32" layoutX="336.0" layoutY="291.0" />
+      <TextField fx:id="b3" layoutX="580.0" layoutY="291.0" />
+      <Button defaultButton="true" layoutX="346.0" layoutY="383.0" mnemonicParsing="false" onAction="#go" style="-fx-background-color: #F6FEEE;" text="Button" AnchorPane.bottomAnchor="255.0" AnchorPane.leftAnchor="346.0" AnchorPane.rightAnchor="346.0" AnchorPane.topAnchor="383.0">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="result" layoutX="95.0" layoutY="477.0" prefHeight="133.0" prefWidth="561.0" style="-fx-background-color: #fffff0;" text="Label">
+         <font>
+            <Font name="SansSerif Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="result1" layoutX="51.0" layoutY="42.0" prefHeight="43.0" prefWidth="58.0" style="-fx-background-color: #fffff0;" text="max">
+         <font>
+            <Font name="SansSerif Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="result11" layoutX="148.0" layoutY="42.0" prefHeight="43.0" prefWidth="58.0" style="-fx-background-color: #fffff0;" text="X :">
+         <font>
+            <Font name="SansSerif Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="result111" layoutX="382.0" layoutY="42.0" prefHeight="43.0" prefWidth="58.0" style="-fx-background-color: #fffff0;" text="Y :">
+         <font>
+            <Font name="SansSerif Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="result12" layoutX="28.0" layoutY="156.0" prefHeight="43.0" prefWidth="58.0" style="-fx-background-color: #fffff0;" text="C11">
+         <font>
+            <Font name="SansSerif Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="result121" layoutX="28.0" layoutY="282.0" prefHeight="43.0" prefWidth="58.0" style="-fx-background-color: #fffff0;" text="C31">
+         <font>
+            <Font name="SansSerif Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="result122" layoutX="501.0" layoutY="222.0" prefHeight="43.0" prefWidth="58.0" style="-fx-background-color: #fffff0;" text="C23">
+         <font>
+            <Font name="SansSerif Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="result123" layoutX="268.0" layoutY="229.0" prefHeight="43.0" prefWidth="58.0" style="-fx-background-color: #fffff0;" text="C22">
+         <font>
+            <Font name="SansSerif Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="result124" layoutX="28.0" layoutY="222.0" prefHeight="43.0" prefWidth="58.0" style="-fx-background-color: #fffff0;" text="C21">
+         <font>
+            <Font name="SansSerif Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="result125" layoutX="501.0" layoutY="156.0" prefHeight="43.0" prefWidth="58.0" style="-fx-background-color: #fffff0;" text="C13">
+         <font>
+            <Font name="SansSerif Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="result126" layoutX="268.0" layoutY="156.0" prefHeight="43.0" prefWidth="58.0" style="-fx-background-color: #fffff0;" text="C12">
+         <font>
+            <Font name="SansSerif Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="result1211" layoutX="501.0" layoutY="282.0" prefHeight="43.0" prefWidth="58.0" style="-fx-background-color: #fffff0;" text="C33">
+         <font>
+            <Font name="SansSerif Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="result1212" layoutX="268.0" layoutY="282.0" prefHeight="43.0" prefWidth="58.0" style="-fx-background-color: #fffff0;" text="C32">
+         <font>
+            <Font name="SansSerif Regular" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

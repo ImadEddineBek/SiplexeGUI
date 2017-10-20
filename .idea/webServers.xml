@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5e3f9907-9d51-4058-9192-7a454d885a7d" name="C:\Users\lenovo\IdeaProjects\SiplexeGUI\out\artifacts\SiplexeGUI" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="E:\Simplexe" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
